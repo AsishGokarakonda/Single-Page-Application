@@ -1,0 +1,154 @@
+* {
+     box-sizing: border-box !important;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     color: #666666;
+     font-size: 14px;
+     line-height: 1.80857;
+     font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0
+}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1
+}
+
+ul,li,ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+
+p {
+     margin: 0px;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 24px;
+}
+
+a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+
+img {
+     max-width: 100%;
+     height: auto;
+}
+
+button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+
+.full {
+     float: left;
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+
+.navigation.navbar {
+     float: right;
+     padding: 0px;
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+     padding: 0 25px;
+     color: #000;
+     font-size: 16px;
+     line-height: 20px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+
+.navbar-expand-md .navbar-nav {
+     padding-right: 10px;
+}
+
+.header {
+     width: 100%;
+     background: transparent;
+     position: absolute;
+     padding: 20px 30px;
+}
+
+.banner_main {
+     background-color: #D5EAEB;
+     background-repeat: no-repeat;
+     min-height: 600px;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     background-size: 100% 100%;
+}
+
+.text-bg {
+     text-align: left;
+     float: right;
+     max-width: 539px;
+     width: 100%;
+}
+
+.d_flex {
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+
+.Features {
+     background: #fff;
+     margin: 90px 0;
+}
+
+.Features .titlepage span {
+     font-size: 22px;
+     line-height: 30px;
+     color: #eb699e;
+     display: block;
+     padding-top: 10px;
+}
+
+.Features .Our_box {
+     border-radius: 20px;
+     text-align: center;
+     margin-bottom: 30px;
+     padding: 60px 0;
+}
+
+.Features .Our_box h4 {
+     font-size: 13px;
+     line-height: 22px;
+     font-weight: 501;
+     padding-top: 30px;
+     padding-bottom: 0;
+}
+
+@media screen and (max-width:1200px){
+     #startRegistry{
+          margin-top: 22px;
+     }
+     
+}
